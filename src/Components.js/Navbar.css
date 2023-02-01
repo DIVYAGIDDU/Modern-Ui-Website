@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dm-navbar{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    
+}
+.dm-navbar-link-logo{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 35px;
+}
+.logo{
+   border-radius: 100%;
+   width: 150px;
+  height: 100px;
+}
+.dm-navbar-link-list{
+    display: flex;
+flex-direction: row;
+align-items: center;
+}
+.dm-navbar-link{
+    color: white;
+    font-weight:500;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   margin-inline: 50px;
+}
